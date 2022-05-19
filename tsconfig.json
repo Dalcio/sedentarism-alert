@@ -20,36 +20,18 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@components": [
-        "src/components"
-      ],
       "@components/*": [
         "src/components/*"
-      ],
-      "@styles": [
-        "src/styles"
       ],
       "@styles/*": [
         "src/styles/*"
       ],
-      "@interfaces": [
-        "src/interfaces"
-      ],
-      "@/interfaces*": [
-        "src/interfaces/*"
-      ],
       "@utils": [
         "src/utils"
       ],
-      "@/utils*": [
-        "src/utils/*"
-      ],
-      // "@": [
-      //   "src/"
-      // ],
-      // "@/*": [
-      //   "src//*"
-      // ]
+      "@hooks/*": [
+        "src/hooks/*"
+      ]
     }
   },
   "include": [
