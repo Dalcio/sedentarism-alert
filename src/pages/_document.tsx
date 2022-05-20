@@ -9,7 +9,15 @@ export default class _Document extends Document {
   render() {
     return (
       <Html>
-        <Head />
+        <Head>
+          <title>Sedentarism Alert - PWA</title>
+
+          <link
+            rel="shortcut icon"
+            href="alarm-clock.svg"
+            type="image/x-icon"
+          />
+        </Head>
         <body>
           <Main />
           <NextScript />

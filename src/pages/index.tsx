@@ -2,7 +2,6 @@ import { Stack } from '@mantine/core';
 import type { NextPage } from 'next';
 
 import CountDown from '@components/CountDown';
-import Head from 'next/head';
 
 const Home: NextPage = () => {
   return (
@@ -14,9 +13,6 @@ const Home: NextPage = () => {
       })}
       align="center"
     >
-      <Head>
-        <title>Sedentarism Alert - PWA</title>
-      </Head>
       <CountDown />
     </Stack>
   );

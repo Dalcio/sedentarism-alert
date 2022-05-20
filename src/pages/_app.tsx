@@ -1,4 +1,5 @@
 import { MantineProvider } from '@mantine/core';
+
 import GlobalStyles from '@styles/global';
 import type { AppProps } from 'next/app';
 
