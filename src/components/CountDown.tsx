@@ -4,7 +4,8 @@ import { useEffect, useState } from 'react';
 
 import useCounter from '@hooks/useCounter';
 
-const DEFAULT_TIME = 60 * 60; // 2hr:00min:00s
+// const DEFAULT_TIME = 2 * 60 * 60; // 2hr:00min:00s
+const DEFAULT_TIME = 60; // 2hr:00min:00s
 
 const CountDown = () => {
   const [bottom, setBottom] = useState<number>(DEFAULT_TIME);
