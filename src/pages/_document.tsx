@@ -11,12 +11,12 @@ export default class _Document extends Document {
       <Html>
         <Head>
           <title>Sedentarism Alert - PWA</title>
-
           <link
             rel="shortcut icon"
-            href="alarm-clock.svg"
+            href="alarm-clock.png"
             type="image/x-icon"
           />
+          <link rel="manifest" href="/manifest.json" />
         </Head>
         <body>
           <Main />
